@@ -68,7 +68,8 @@ SOURCES += src/mainwindow.cpp \
     src/commands/inputnumber.cpp \
     src/commands/showchoices.cpp \
     src/commands/switchoperations.cpp \
-    src/commands/variableoperations.cpp
+    src/commands/variableoperations.cpp \
+    src/dialogabout.cpp
 
 HEADERS  += src/mainwindow.h \
     src/dialogresourcemanager.h \
@@ -134,7 +135,8 @@ HEADERS  += src/mainwindow.h \
     src/commands/showchoices.h \
     src/commands/switchoperations.h \
     src/commands/variableoperations.h \
-    src/commands/allcommands.h
+    src/commands/allcommands.h \
+    src/dialogabout.h
 
 FORMS    += src/mainwindow.ui \
     src/dialogresourcemanager.ui \
@@ -179,7 +181,9 @@ FORMS    += src/mainwindow.ui \
     src/commands/inputnumber.ui \
     src/commands/switchoperations.ui \
     src/commands/variableoperations.ui \
-    src/commands/showchoices.ui
+    src/commands/showchoices.ui \
+    src/dialogabout.ui \
+    src/dialogaboutqt.ui
 
 RESOURCES += \
     src/Resources.qrc

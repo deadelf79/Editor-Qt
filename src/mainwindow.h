@@ -119,6 +119,8 @@ private slots:
 
     void on_actionEnable_Caching_toggled(bool checked);
 
+    void on_actionAbout_triggered();
+
 private:
     void closeEvent(QCloseEvent *event);
     bool saveAll();

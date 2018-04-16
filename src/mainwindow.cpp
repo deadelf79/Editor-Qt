@@ -4,6 +4,7 @@
 #include "dialogrtppath.h"
 #include "dialogevent.h"
 #include "dialogmapproperties.h"
+#include "dialogabout.h"
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QImage>
@@ -1308,4 +1309,9 @@ void MainWindow::selectTile(int x, int y)
 void MainWindow::on_actionEnable_Caching_toggled(bool checked)
 {
     searchdialog->enableCache(checked);
+}
+
+void MainWindow::on_actionAbout_triggered()
+{
+    DialogAbout dlg(this);
 }
