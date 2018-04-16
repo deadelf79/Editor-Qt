@@ -112,7 +112,9 @@
     <addaction name="actionJukebox"/>
     <addaction name="actionSearch"/>
     <addaction name="action_Script_Editor"/>
+    <addaction name="actionLocalization"/>
     <addaction name="actionSwitch_Variables"/>
+    <addaction name="actionTemplates_2"/>
     <addaction name="separator"/>
     <addaction name="actionPreferences"/>
    </widget>
@@ -685,7 +687,7 @@
      <normaloff>:/icons/share/old_database.png</normaloff>:/icons/share/old_database.png</iconset>
    </property>
    <property name="text">
-    <string>Data Base</string>
+    <string>Database</string>
    </property>
    <property name="statusTip">
     <string>Open Data Base editor</string>
@@ -1075,6 +1077,16 @@
    </property>
    <property name="text">
     <string>Blur Lower Layer</string>
+   </property>
+  </action>
+  <action name="actionLocalization">
+   <property name="text">
+    <string>Localization</string>
+   </property>
+  </action>
+  <action name="actionTemplates_2">
+   <property name="text">
+    <string>Templates</string>
    </property>
   </action>
  </widget>
