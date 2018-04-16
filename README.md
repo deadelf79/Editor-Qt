@@ -14,6 +14,7 @@ Documentation is available at the documentation wiki: https://wiki.easyrpg.org
 
 ## Requirements
 
+- icu package
 - liblcf for RPG Maker data reading. https://github.com/EasyRPG/liblcf
 - Qt (>= 5.2)
 - Qt multimedia
