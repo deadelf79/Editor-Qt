@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Create new Project</string>
+   <string>Create new game project</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_4">
    <property name="sizeConstraint">
@@ -124,6 +124,16 @@
           <item>
            <property name="text">
             <string>Default&lt;EN&gt;</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Russian&lt;RU&gt;</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Japaneese&lt;JP&gt;</string>
            </property>
           </item>
          </widget>

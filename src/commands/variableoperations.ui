@@ -9,9 +9,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>508</width>
-    <height>700</height>
+    <width>450</width>
+    <height>526</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>450</width>
+    <height>526</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Variable Operations</string>
@@ -124,7 +136,7 @@
          <item row="0" column="0">
           <widget class="QRadioButton" name="ope_eq">
            <property name="text">
-            <string>Set e&amp;qual</string>
+            <string>Set e&amp;qual ( = )</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -134,35 +146,35 @@
          <item row="1" column="0">
           <widget class="QRadioButton" name="ope_add">
            <property name="text">
-            <string>Add</string>
+            <string>Add  ( + )</string>
            </property>
           </widget>
          </item>
          <item row="1" column="1">
           <widget class="QRadioButton" name="ope_mul">
            <property name="text">
-            <string>&amp;Multiply</string>
+            <string>&amp;Multiply ( * )</string>
            </property>
           </widget>
          </item>
          <item row="0" column="2">
           <widget class="QRadioButton" name="ope_div">
            <property name="text">
-            <string>Divide</string>
+            <string>Divide ( / )</string>
            </property>
           </widget>
          </item>
          <item row="1" column="2">
           <widget class="QRadioButton" name="ope_mod">
            <property name="text">
-            <string>Modulus</string>
+            <string>Modulus ( % )</string>
            </property>
           </widget>
          </item>
          <item row="0" column="1">
           <widget class="QRadioButton" name="ope_sub">
            <property name="text">
-            <string>Subtract</string>
+            <string>Subtract ( - )</string>
            </property>
           </widget>
          </item>
@@ -381,7 +393,7 @@
              </item>
              <item>
               <property name="text">
-               <string>Waepon number</string>
+               <string>Weapon number</string>
               </property>
              </item>
              <item>

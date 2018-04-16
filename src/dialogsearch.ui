@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>641</width>
-    <height>717</height>
+    <width>600</width>
+    <height>654</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>16777215</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>DialogSearch</string>
@@ -135,14 +147,11 @@
         <property name="title">
          <string>Search Scope</string>
         </property>
-        <layout class="QVBoxLayout" name="verticalLayout_3">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
-          <widget class="QRadioButton" name="scope_current">
+          <widget class="QRadioButton" name="scope_project">
            <property name="text">
-            <string>Current &amp;Map</string>
-           </property>
-           <property name="checked">
-            <bool>true</bool>
+            <string>Current Pro&amp;ject</string>
            </property>
           </widget>
          </item>
@@ -154,9 +163,12 @@
           </widget>
          </item>
          <item>
-          <widget class="QRadioButton" name="scope_project">
+          <widget class="QRadioButton" name="scope_current">
            <property name="text">
-            <string>Current Pro&amp;ject</string>
+            <string>Current &amp;Map</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
            </property>
           </widget>
          </item>

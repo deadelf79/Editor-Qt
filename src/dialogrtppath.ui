@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>121</height>
+    <height>144</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,6 +39,20 @@
        </widget>
       </item>
      </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>Click here to download OpenRTP from official site</string>
+     </property>
     </widget>
    </item>
    <item>
