@@ -137,8 +137,8 @@
        <rect>
         <x>10</x>
         <y>20</y>
-        <width>135</width>
-        <height>334</height>
+        <width>179</width>
+        <height>358</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -229,7 +229,14 @@
              <item>
               <widget class="QCheckBox" name="checkBox_2">
                <property name="text">
-                <string>Controls</string>
+                <string>Controls Setup</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_3">
+               <property name="text">
+                <string>Screen/Window Switch</string>
                </property>
               </widget>
              </item>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>SwitchesVariables</class>
- <widget class="QDialog" name="SwitchesVariables">
+ <class>DialogSwitchesVariablesEditor</class>
+ <widget class="QDialog" name="DialogSwitchesVariablesEditor">
   <property name="windowModality">
    <enum>Qt::WindowModal</enum>
   </property>

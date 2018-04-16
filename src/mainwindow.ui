@@ -28,6 +28,18 @@
     <property name="spacing">
      <number>6</number>
     </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
     <item>
      <widget class="QTabWidget" name="tabMap">
       <property name="documentMode">
@@ -374,6 +386,88 @@
    <addaction name="actionPaste_Map"/>
    <addaction name="separator"/>
    <addaction name="actionDelete_Map"/>
+  </widget>
+  <widget class="QDockWidget" name="dockTemplates">
+   <property name="windowTitle">
+    <string>Templates</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="alternatingRowColors">
+        <bool>false</bool>
+       </property>
+       <property name="showGrid">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>126</number>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>46</number>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="verticalHeaderDefaultSectionSize">
+        <number>31</number>
+       </attribute>
+       <attribute name="verticalHeaderMinimumSectionSize">
+        <number>26</number>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>item</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>item2</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Name2</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>Chest</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>Teleport</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <action name="action_Open_Project">
    <property name="icon">
