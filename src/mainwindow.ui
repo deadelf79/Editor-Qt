@@ -73,6 +73,9 @@
     <addaction name="actionImport_Project"/>
     <addaction name="action_Close_Project"/>
     <addaction name="separator"/>
+    <addaction name="actionImport_datas"/>
+    <addaction name="actionExport_data"/>
+    <addaction name="separator"/>
     <addaction name="actionCreate_Game_Disk"/>
     <addaction name="separator"/>
     <addaction name="action_Quit"/>
@@ -83,7 +86,7 @@
     </property>
     <widget class="QMenu" name="menuEdition_Mode">
      <property name="title">
-      <string>Edit&amp;Layer</string>
+      <string>Edit &amp;Layer</string>
      </property>
      <addaction name="action_Lower_Layer"/>
      <addaction name="action_Upper_Layer"/>
@@ -114,7 +117,7 @@
     <addaction name="action_Script_Editor"/>
     <addaction name="actionLocalization"/>
     <addaction name="actionSwitch_Variables"/>
-    <addaction name="actionTemplates_2"/>
+    <addaction name="actionTemplates"/>
     <addaction name="separator"/>
     <addaction name="actionPreferences"/>
    </widget>
@@ -142,7 +145,7 @@
     </property>
     <addaction name="actionPalete"/>
     <addaction name="actionMap_Tree"/>
-    <addaction name="actionTemplates"/>
+    <addaction name="actionTemplateList"/>
    </widget>
    <widget class="QMenu" name="menuDebug">
     <property name="title">
@@ -389,9 +392,9 @@
    <addaction name="separator"/>
    <addaction name="actionDelete_Map"/>
   </widget>
-  <widget class="QDockWidget" name="dockTemplates">
+  <widget class="QDockWidget" name="dockTemplateList">
    <property name="windowTitle">
-    <string>Templates</string>
+    <string>Template List</string>
    </property>
    <attribute name="dockWidgetArea">
     <number>1</number>
@@ -726,7 +729,7 @@
      <normaloff>:/icons/share/old_search.png</normaloff>:/icons/share/old_search.png</iconset>
    </property>
    <property name="text">
-    <string>Search</string>
+    <string>Search in project</string>
    </property>
    <property name="statusTip">
     <string>Search inside your Game Project</string>
@@ -1057,15 +1060,21 @@
    <property name="text">
     <string>Switches &amp;&amp; Variables</string>
    </property>
+   <property name="toolTip">
+    <string>Show switches &amp; variables names editor.</string>
+   </property>
   </action>
-  <action name="actionTemplates">
+  <action name="actionTemplateList">
    <property name="text">
-    <string>Templates</string>
+    <string>Template List</string>
    </property>
   </action>
   <action name="actionPreferences">
    <property name="text">
     <string>Preferences</string>
+   </property>
+   <property name="toolTip">
+    <string>Change project's preferences.</string>
    </property>
   </action>
   <action name="actionBlur_Lower_Layer">
@@ -1083,10 +1092,26 @@
    <property name="text">
     <string>Localization</string>
    </property>
+   <property name="toolTip">
+    <string>Show localization editor.</string>
+   </property>
   </action>
-  <action name="actionTemplates_2">
+  <action name="actionTemplates">
    <property name="text">
     <string>Templates</string>
+   </property>
+   <property name="toolTip">
+    <string>Show templates editor.</string>
+   </property>
+  </action>
+  <action name="actionImport_datas">
+   <property name="text">
+    <string>Import data...</string>
+   </property>
+  </action>
+  <action name="actionExport_data">
+   <property name="text">
+    <string>Export data...</string>
    </property>
   </action>
  </widget>
