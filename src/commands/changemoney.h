@@ -2,7 +2,7 @@
 #define CHANGEMONEY_H
 
 #include <QDialog>
-#include <rpg_commonevent.h>
+#include "../liblcf/src/generated/rpg_commonevent.h"
 
 namespace Ui {
 class ChangeMoney;

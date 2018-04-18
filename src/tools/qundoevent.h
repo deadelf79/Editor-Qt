@@ -2,7 +2,7 @@
 #define QUNDOEVENT_H
 
 #include <QUndoCommand>
-#include <rpg_event.h>
+#include "../liblcf/src/generated/rpg_event.h"
 #include "qgraphicsmapscene.h"
 
 class QUndoEvent : public QUndoCommand

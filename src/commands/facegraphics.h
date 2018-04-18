@@ -2,7 +2,7 @@
 #define FACEGRAPHICS_H
 
 #include <QDialog>
-#include <rpg_eventcommand.h>
+#include "../liblcf/src/generated/rpg_eventcommand.h"
 
 namespace Ui {
 class FaceGraphics;

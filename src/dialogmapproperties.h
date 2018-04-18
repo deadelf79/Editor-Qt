@@ -4,8 +4,8 @@
 #include <QDialog>
 #include <QGraphicsPixmapItem>
 #include <QTableWidgetItem>
-#include <rpg_mapinfo.h>
-#include <rpg_map.h>
+#include "liblcf/src/generated/rpg_mapinfo.h"
+#include "liblcf/src/generated/rpg_map.h"
 #include "tools/qencounterdelegate.h"
 
 namespace Ui {

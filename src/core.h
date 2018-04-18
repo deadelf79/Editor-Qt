@@ -79,8 +79,8 @@
 #include <QPixmap>
 #include <QPainter>
 #include <QListWidget>
-#include "rpg_map.h"
-#include "rpg_chipset.h"
+#include "liblcf/src/generated/rpg_map.h"
+#include "liblcf/src/generated/rpg_chipset.h"
 #include "dialogrungame.h"
 
 class Core : public QObject

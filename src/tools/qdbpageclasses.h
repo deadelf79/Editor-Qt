@@ -2,8 +2,8 @@
 #define QDBPAGEPROFESSIONS_H
 
 #include <QWidget>
-#include <rpg_database.h>
-#include <rpg_class.h>
+#include "../liblcf/src/generated/rpg_database.h"
+#include "../liblcf/src/generated/rpg_class.h"
 #include "qgraphicsbattleanimationitem.h"
 
 namespace Ui {

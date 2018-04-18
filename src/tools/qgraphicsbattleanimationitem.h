@@ -3,7 +3,7 @@
 
 #include <QGraphicsPixmapItem>
 #include "../core.h"
-#include "rpg_battleranimation.h"
+#include "../liblcf/src/generated/rpg_battleranimation.h"
 
 class QGraphicsBattleAnimationItem : public QObject, public QGraphicsPixmapItem
 {

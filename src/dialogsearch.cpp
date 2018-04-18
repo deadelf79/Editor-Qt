@@ -4,9 +4,9 @@
 #include "core.h"
 #include "stringizer.h"
 
-#include <command_codes.h>
-#include <data.h>
-#include <lmu_reader.h>
+#include "liblcf/src/command_codes.h"
+#include "liblcf/src/data.h"
+#include "liblcf/src/lmu_reader.h"
 #include <functional>
 #include <vector>
 #include <tuple>

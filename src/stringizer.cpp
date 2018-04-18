@@ -1,6 +1,6 @@
 #include <QObject>
 #include "stringizer.h"
-#include <data.h>
+#include "liblcf/src/data.h"
 #include "core.h"
 
 namespace

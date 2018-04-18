@@ -2,8 +2,8 @@
 #define QDBPAGEACTORS_H
 
 #include <QWidget>
-#include <data.h>
-#include <rpg_actor.h>
+#include "../liblcf/src/data.h"
+#include "../liblcf/src/generated/rpg_actor.h"
 #include <QDialogButtonBox>
 #include "qgraphicscharaitem.h"
 #include "qgraphicsfaceitem.h"

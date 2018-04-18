@@ -2,7 +2,7 @@
 #define STRINGIZER_H
 
 #include <QString>
-#include "rpg_eventcommand.h"
+#include "liblcf/src/generated/rpg_eventcommand.h"
 
 namespace Stringizer {
     QString stringize(const RPG::EventCommand& com);

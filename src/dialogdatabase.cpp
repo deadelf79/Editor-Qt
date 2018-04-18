@@ -3,7 +3,7 @@
 #include <QPushButton>
 #include <QInputDialog>
 #include <QDialogButtonBox>
-#include "ldb_reader.h"
+#include "liblcf/src/ldb_reader.h"
 
 DialogDataBase::DialogDataBase(QWidget *parent) :
     QDialog(parent),

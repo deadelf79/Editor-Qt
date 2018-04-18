@@ -6,7 +6,7 @@
 #include <QPainter>
 #include <QScrollBar>
 #include <QStatusBar>
-#include "rpg_event.h"
+#include "../liblcf/src/generated/rpg_event.h"
 #include <iomanip>
 #include <sstream>
 #include "../core.h"
@@ -16,9 +16,9 @@
 #include "../mainwindow.h"
 #include "qundodraw.h"
 #include "qundoevent.h"
-#include <data.h>
-#include <lmu_reader.h>
-#include <lmt_reader.h>
+#include "../liblcf/src/data.h"
+#include "../liblcf/src/lmu_reader.h"
+#include "../liblcf/src/lmt_reader.h"
 
 QGraphicsMapScene::QGraphicsMapScene(int id, QGraphicsView *view, QObject *parent) :
     QGraphicsScene(parent)

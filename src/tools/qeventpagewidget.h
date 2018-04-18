@@ -2,12 +2,12 @@
 #define QEVENTPAGEWIDGET_H
 
 #include <QWidget>
-#include <rpg_eventpage.h>
+#include "../liblcf/src/generated/rpg_eventpage.h"
 #include <QGraphicsPixmapItem>
 #include <QGraphicsOpacityEffect>
 #include <QGraphicsScene>
-#include <rpg_eventcommand.h>
-#include <command_codes.h>
+#include "../liblcf/src/generated/rpg_eventcommand.h"
+#include "../liblcf/src/command_codes.h"
 #include "qgraphicscharaitem.h"
 #include "../dialogsplash.h"
 #include <QProgressBar>

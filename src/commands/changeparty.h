@@ -2,7 +2,7 @@
 #define CHANGEPARTY_H
 
 #include <QDialog>
-#include <rpg_eventcommand.h>
+#include "../liblcf/src/generated/rpg_eventcommand.h"
 
 namespace Ui {
 class ChangeParty;

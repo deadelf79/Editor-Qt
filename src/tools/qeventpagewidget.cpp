@@ -2,7 +2,7 @@
 #include "ui_qeventpagewidget.h"
 #include <QDialogButtonBox>
 #include <QMessageBox>
-#include <data.h>
+#include "../liblcf/src/data.h"
 #include "../dialogcharapicker.h"
 #include "../core.h"
 #include "../stringizer.h"

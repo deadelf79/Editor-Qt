@@ -2,7 +2,7 @@
 #define QDBPAGESKILLS_H
 
 #include <QWidget>
-#include <data.h>
+#include "../liblcf/src/data.h"
 
 namespace Ui {
 class QDbPageSkills;

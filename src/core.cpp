@@ -5,7 +5,7 @@
 #include <QGraphicsView>
 #include <QPainter>
 #include <QDebug>
-#include "data.h"
+#include "liblcf/src/data.h"
 #include "tools/qgraphicsmapscene.h"
 
 //define static member

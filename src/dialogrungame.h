@@ -3,7 +3,7 @@
 
 #include <QDialog>
 #include <QTableWidgetItem>
-#include <rpg_testbattler.h>
+#include "liblcf/src/generated/rpg_testbattler.h"
 
 namespace Ui {
 class DialogRunGame;

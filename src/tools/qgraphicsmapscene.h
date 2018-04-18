@@ -10,8 +10,8 @@
 #include <QMenu>
 #include <QUndoStack>
 #include <memory>
-#include <rpg_map.h>
-#include <rpg_mapinfo.h>
+#include "../liblcf/src/generated/rpg_map.h"
+#include "../liblcf/src/generated/rpg_mapinfo.h"
 #include "../core.h"
 
 class QGraphicsMapScene : public QGraphicsScene

@@ -2,8 +2,8 @@
 #define DIALOGDATABASE_H
 
 #include <QDialog>
-#include <data.h>
-#include <rpg_actor.h>
+#include "liblcf/src/data.h"
+#include "liblcf/src/generated/rpg_actor.h"
 #include <QDialogButtonBox>
 #include "tools/qdbpageactors.h"
 #include "tools/qdbpageclasses.h"

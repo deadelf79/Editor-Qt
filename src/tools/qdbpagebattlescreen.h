@@ -2,7 +2,7 @@
 #define QDBPAGEBATTLESCREEN_H
 
 #include <QWidget>
-#include <data.h>
+#include "../liblcf/src/data.h"
 
 namespace Ui {
 class QDbPageBattleScreen;

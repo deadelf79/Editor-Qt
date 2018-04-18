@@ -2,7 +2,7 @@
 #define DIALOGEVENT_H
 
 #include <QDialog>
-#include <rpg_event.h>
+#include "liblcf/src/generated/rpg_event.h"
 
 namespace Ui {
 class DialogEvent;

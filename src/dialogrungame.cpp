@@ -1,7 +1,7 @@
 #include "dialogrungame.h"
 #include "ui_dialogrungame.h"
 #include "tools/qactordelegate.h"
-#include <data.h>
+#include "liblcf/src/data.h"
 
 DialogRunGame::DialogRunGame(QWidget *parent) :
     QDialog(parent),

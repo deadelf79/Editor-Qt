@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QAbstractItemModel>
-#include <data.h>
+#include "../liblcf/src/data.h"
 
 template <class DATA>
 class RpgModel : public QAbstractListModel

@@ -3,7 +3,7 @@
 
 #include <QDialog>
 #include <memory>
-#include <rpg_map.h>
+#include "liblcf/src/generated/rpg_map.h"
 #include <vector>
 
 namespace Ui {

@@ -1,6 +1,6 @@
 #include "dialogmapproperties.h"
 #include "ui_dialogmapproperties.h"
-#include <data.h>
+#include "liblcf/src/data.h"
 #include "core.h"
 
 DialogMapProperties::DialogMapProperties(RPG::MapInfo &info, RPG::Map &map, QWidget *parent) :

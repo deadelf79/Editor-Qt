@@ -22,13 +22,13 @@
 #include <sstream>
 #include <iomanip>
 #include "core.h"
-#include "lmu_reader.h"
-#include "lmt_reader.h"
-#include "ldb_reader.h"
-#include "inireader.h"
-#include "rpg_map.h"
-#include "rpg_mapinfo.h"
-#include "data.h"
+#include "liblcf/src/lmu_reader.h"
+#include "liblcf/src/lmt_reader.h"
+#include "liblcf/src/ldb_reader.h"
+#include "liblcf/src/inireader.h"
+#include "liblcf/src/generated/rpg_map.h"
+#include "liblcf/src/generated/rpg_mapinfo.h"
+#include "liblcf/src/data.h"
 
 Q_DECLARE_METATYPE(QList<int>)
 Q_DECLARE_METATYPE(QList<float>)

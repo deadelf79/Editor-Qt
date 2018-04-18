@@ -1,5 +1,5 @@
 #include "qencounterdelegate.h"
-#include <data.h>
+#include "../liblcf/src/data.h"
 
 QEncounterDelegate::QEncounterDelegate(QObject *parent) :
     QItemDelegate(parent)
